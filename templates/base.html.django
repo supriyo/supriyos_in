@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Mathematician and Pythonista at type(ish)" />
-        <title>Supriyo Sinha | Mathematician and Pythonista at type(ish)</title>
+        <title>Supriyo Sinha | {% block title %}{% endblock title %}</title>
         <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:regular,regularitalic,bold" rel="stylesheet" type="text/css" />
 
         <script type="text/javascript">
@@ -48,8 +48,9 @@
                 padding: 0;
             }
             ul#links li{
+                display: inline-block;
                 list-style-type: none;
-                margin: 0 0 0.4em 0;
+                margin: 0 0.4em 0.4em 0;
                 padding: 0;
             }
             h1 {
@@ -65,9 +66,6 @@
                 padding-left: 100px;
                 width: 30em;
             }
-            div#content p {
-
-            }
         </style>
     </head>
     <body>
@@ -76,7 +74,7 @@
             The <s>Situation</s> Mathematician at <a href="http://typeish.net" target="_blank" title="type(ish): Design With Type & Such">type(ish), inc. &raquo;</a>
         </p>
         <ul id="links">
-            <li>On <a href="https://github.com/supriyo" target="_blank" title="GitHub: Social Coding">GitHub &raquo;</a></li>
+            <li><a href="https://github.com/supriyo" target="_blank" title="GitHub: Social Coding">GitHub &raquo;</a></li>
             <li>Project Euler &raquo;</li>
         </ul>
         <div id="content">

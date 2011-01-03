@@ -7,7 +7,7 @@ CONTENT_DIR = os.path.join(PROJECT_ROOT,'content')
 DEPLOY_DIR = os.path.join(PROJECT_ROOT,'deploy')
 
 # Add specific filenames to ignore here.
-IGNORE = (,)
+IGNORE = ()
 
 
 # import the included Django processor from staples
