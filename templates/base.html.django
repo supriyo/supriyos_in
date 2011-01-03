@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="Mathematician and Pythonista at type(ish)" />
+        <title>Supriyo Sinha | Mathematician and Pythonista at type(ish)</title>
+        <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:regular,regularitalic,bold" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-9658094-3']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+        
+        <style type="text/css">
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
+            }
+            body {
+                background-color: #f3f3f3;
+                color: #222222;
+                font-family: "Josefin Sans", Futura, "Century Gothic", AppleGothic, sans-serif;
+            }
+            a {
+                color: #666666;
+                font-weight: 700;
+                text-decoration: none;
+            }
+            
+            a:hover {
+                text-decoration: underline;
+            }
+            p#subtitle, ul#links {
+                margin-left: 100px;
+            }
+            p#subtitle {
+                font-size: 0.9em;
+            }
+            ul#links {
+                padding: 0;
+            }
+            ul#links li{
+                list-style-type: none;
+                margin: 0 0 0.4em 0;
+                padding: 0;
+            }
+            h1 {
+                background-color: #222222;
+                color: #f3f3f3;
+                font-size: 3em;
+                font-weight: 700;
+                margin: 0;
+                padding: 20px 0 0 100px;
+            }
+            div#content {
+                border-top: 1px solid #cccccc;
+                padding-left: 100px;
+                width: 30em;
+            }
+            div#content p {
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Supriyo Sinha</h1>
+        <p id="subtitle">
+            The <s>Situation</s> Mathematician at <a href="http://typeish.net" target="_blank" title="type(ish): Design With Type & Such">type(ish), inc. &raquo;</a>
+        </p>
+        <ul id="links">
+            <li>On <a href="https://github.com/supriyo" target="_blank" title="GitHub: Social Coding">GitHub &raquo;</a></li>
+            <li>Project Euler &raquo;</li>
+        </ul>
+        <div id="content">
+            {% block body %}
+            {% endblock body %}
+        </div>
+    </body>
+</html>
